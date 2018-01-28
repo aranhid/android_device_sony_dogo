@@ -27,7 +27,7 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 $(call inherit-product, device/sony/fusion3-common/common.mk)
 
 # Product common configurations
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Dalvik heap configurations
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
