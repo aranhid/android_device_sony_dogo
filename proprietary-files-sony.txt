@@ -33,7 +33,7 @@ etc/firmware/dsp3.mbn
 lib/hw/nfc.msm8960.so
 
 # TA
-bin/updatemiscta
+vendor/bin/updatemiscta
 
 # Touchscreen firmware
 etc/firmware/touch_module_id_0x3c.img
